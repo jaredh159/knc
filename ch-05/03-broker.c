@@ -35,5 +35,3 @@ int main(void) {
   printf("Rival commission: $%.2f\n", rival_commission);
   return 0;
 }
-
-// start at 121, num 4
