@@ -16,7 +16,6 @@ void print_board(char grid[10][10]);
 bool can_move_to(int dir, int x, int y, char grid[10][10]);
 
 int main(void) {
-  // printf("LEFT %d, RIGHT = %d, UP = %d, DOWN = %d\n", LEFT, RIGHT, UP, DOWN);
   srand((unsigned)time(NULL));
   char grid[10][10] = {
     {'A', '.', '.', '.', '.', '.', '.', '.', '.', '.'},
